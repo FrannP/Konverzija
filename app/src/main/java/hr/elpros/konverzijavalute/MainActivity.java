@@ -36,29 +36,29 @@ public class MainActivity extends AppCompatActivity {
             String state = drop.getSelectedItem().toString();
             if(state=="Srednji")
             {
-                val*=7.064035;
+                val/=7.064035;
                 usd.setText(val.toString());
-                val2*=7.651569;
+                val2/=7.651569;
                 swiss.setText(val2.toString());
-                val3*=7.534500;
+                val3/=7.534500;
                 euro.setText(val3.toString());
             }
             else if(state=="Kupovni")
             {
-                val*=7.042843;
+                val/=7.042843;
                 usd.setText(val.toString());
-                val2*=7.628614;
+                val2/=7.628614;
                 swiss.setText(val2.toString());
-                val3*=7.511897;
+                val3/=7.511897;
                 euro.setText(val3.toString());
             }
             else
             {
-                val*=7.085227;
+                val/=7.085227;
                 usd.setText(val.toString());
-                val2*=7.674524;
+                val2/=7.674524;
                 swiss.setText(val2.toString());
-                val3*=7.557104;
+                val3/=7.557104;
                 euro.setText(val3.toString());
             }
 
